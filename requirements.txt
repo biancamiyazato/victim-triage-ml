@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+joblib
+reportlab   # only for report generation (gerar_relatorio.py)
+pygame      # only for the map script (gerar_mapa_exploracao.py)
