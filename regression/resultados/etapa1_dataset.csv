@@ -1,0 +1,12 @@
+MODELO,VALOR
+Vítimas tri=verde,2448
+Vítimas tri=amarelo,2567
+Vítimas tri=vermelho,2561
+Vítimas tri=preto,2424
+Idade das vítimas (média amostral),39.92
+Desvio padrão amostral da idade,23.20
+ruído,0.05
+Média da idade (parâmetro do gerador),40
+Desvio padrão da idade (parâmetro do gerador),25
+Semente,42
+Número de folds (validação cruzada),5

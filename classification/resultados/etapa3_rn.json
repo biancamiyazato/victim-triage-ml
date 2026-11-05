@@ -1,0 +1,151 @@
+{
+  "n_folds": 5,
+  "preprocessamento": "StandardScaler",
+  "hiperparametros": {
+    "U": {
+      "hidden_layer_sizes": [
+        2
+      ],
+      "activation": "logistic",
+      "learning_rate_init": 0.001,
+      "solver": "sgd",
+      "alpha": 0.0001,
+      "max_iter": 100,
+      "early_stopping": false
+    },
+    "E": {
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "activation": "relu",
+      "learning_rate_init": 0.001,
+      "solver": "adam",
+      "alpha": 0.001,
+      "max_iter": 500,
+      "early_stopping": true
+    },
+    "O": {
+      "hidden_layer_sizes": [
+        256,
+        256,
+        256
+      ],
+      "activation": "relu",
+      "learning_rate_init": 0.001,
+      "solver": "adam",
+      "alpha": 0.0,
+      "max_iter": 1000,
+      "early_stopping": false,
+      "tol": 1e-06,
+      "n_iter_no_change": 50
+    }
+  },
+  "resultados": {
+    "U": {
+      "treino": {
+        "folds": [
+          0.66382,
+          0.66139,
+          0.65958,
+          0.66001,
+          0.66483
+        ],
+        "media": 0.66193,
+        "dpa": 0.00207
+      },
+      "validacao": {
+        "folds": [
+          0.65322,
+          0.66216,
+          0.67331,
+          0.66769,
+          0.6463
+        ],
+        "media": 0.66054,
+        "dpa": 0.00973
+      },
+      "difs": {
+        "folds": [
+          0.0106,
+          0.00077,
+          0.01373,
+          0.00768,
+          0.01853
+        ],
+        "media": 0.01026,
+        "dpa": 0.00595
+      }
+    },
+    "E": {
+      "treino": {
+        "folds": [
+          0.94887,
+          0.94538,
+          0.947,
+          0.94667,
+          0.947
+        ],
+        "media": 0.94698,
+        "dpa": 0.00111
+      },
+      "validacao": {
+        "folds": [
+          0.94072,
+          0.95014,
+          0.94965,
+          0.95408,
+          0.93456
+        ],
+        "media": 0.94583,
+        "dpa": 0.00713
+      },
+      "difs": {
+        "folds": [
+          0.00815,
+          0.00476,
+          0.00265,
+          0.00741,
+          0.01244
+        ],
+        "media": 0.00708,
+        "dpa": 0.00332
+      }
+    },
+    "O": {
+      "treino": {
+        "folds": [
+          0.99962,
+          0.98781,
+          0.99963,
+          0.99531,
+          0.99987
+        ],
+        "media": 0.99645,
+        "dpa": 0.00464
+      },
+      "validacao": {
+        "folds": [
+          0.92193,
+          0.91342,
+          0.91982,
+          0.91242,
+          0.90869
+        ],
+        "media": 0.91526,
+        "dpa": 0.0049
+      },
+      "difs": {
+        "folds": [
+          0.0777,
+          0.07439,
+          0.07981,
+          0.08289,
+          0.09119
+        ],
+        "media": 0.08119,
+        "dpa": 0.00571
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+MODELO,RN U,RN E,RN O
+Topologia,[1],[32 16],[128 128]
+Função de ativação,identity,tanh,relu
+Learning rate,0.001,0.001,0.001
+solver,sgd,adam,adam
+alpha (L2),0.0001,0.001,0.0
+max_iter,100,500,300
+early_stopping,False,True,False
+scaler,StandardScaler,StandardScaler,StandardScaler

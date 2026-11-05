@@ -1,0 +1,69 @@
+{
+  "n_vitimas_teste": 1300,
+  "resultados": {
+    "Melhor CART (E)": {
+      "precisao_macro": 0.93364,
+      "recall_macro": 0.932,
+      "f1_macro": 0.93281,
+      "acuracia": 0.93385,
+      "matriz_confusao": [
+        [
+          95,
+          8,
+          0,
+          0
+        ],
+        [
+          7,
+          365,
+          13,
+          0
+        ],
+        [
+          0,
+          12,
+          376,
+          24
+        ],
+        [
+          0,
+          0,
+          22,
+          378
+        ]
+      ]
+    },
+    "Melhor RN (E)": {
+      "precisao_macro": 0.94051,
+      "recall_macro": 0.94067,
+      "f1_macro": 0.94058,
+      "acuracia": 0.94231,
+      "matriz_confusao": [
+        [
+          96,
+          7,
+          0,
+          0
+        ],
+        [
+          7,
+          367,
+          11,
+          0
+        ],
+        [
+          0,
+          12,
+          379,
+          21
+        ],
+        [
+          0,
+          0,
+          17,
+          383
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+MODELO,CART U,CART E,CART O
+Max_depth,2,10,None
+Min_samples_leaf,1,20,1
+Min_samples_split,2,2,2
+Criterion,squared_error,squared_error,squared_error

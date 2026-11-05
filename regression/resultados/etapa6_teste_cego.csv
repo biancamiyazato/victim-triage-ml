@@ -1,0 +1,5 @@
+MODELO,Melhor CART (E),Melhor RN (E)
+MSE,"0,05196","0,04300"
+Ganho % de MSE,,"17,25%"
+RMSE,"0,22796","0,20737"
+Ganho % de RMSE,,"9,03%"
